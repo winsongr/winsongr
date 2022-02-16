@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @winsongr
 - 👀 I’m interested in app development
-- 🌱 I’m currently learning flutter
+- 🌱 I’m currently learning flutter & Golang
 - 💞️ I’m looking to collaborate on app development
 - 📫 How to reach me ...
 
