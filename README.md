@@ -74,5 +74,4 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
 
----
-[![](https://visitcount.itsvg.in/api?id=winsongr&icon=0&color=3)](https://visitcount.itsvg.in)
+
