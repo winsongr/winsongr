@@ -1,32 +1,15 @@
-# Software Engineer
+# Hey there
 
-## Introduction
-Greetings! I'm Winson, a dedicated and proficient software engineer, with a focus on Fullstack and Backend Projects. Leveraging my expertise, I aim to contribute meaningfully to the world of technology.
+## Software Engineer & Fullstack Developer
 
-## Connect with Me
-- [GitHub](https://github.com/winsongr)
-- [LinkedIn](https://linkedin.com/in/winsongr)
+Greetings! I'm Winson, a seasoned software engineer with over 4 years of experience. I specialize in Fullstack and Backend development, leveraging a wide array of technologies to deliver innovative solutions.
 
-## Current Focus
-- 🔭 Currently engrossed in Fullstack and Backend Projects.
+### Technical Expertise
+- **Languages:** Golang, Python, JavaScript (Node.js), Dart
+- **Frameworks/Tools:** FastAPI, Flutter, MongoDB, SQL (MySQL, PostgreSQL), Express.js, Next.js, Tailwind CSS, Figma, Firebase, WordPress, Git, AWS, Azure, Google Cloud Platform (GCP), HTML, Bootstrap, Strapi, Android, and more.
+- **Cloud Platforms:** AWS, Azure, GCP, Digital Ocean
+- **Experience:** Full stack development, chatbot development, automation, cloud architecture, DevOps practices, and more.
 
-## Technical Exploration
-- 🌱 Exploring a diverse range of technologies.
-
-## Expertise
-- ❓ Ask me about Web servers (ec2, AWS, ...), Architectures, and cutting-edge tech stacks.
-
-## Collaboration
-- ⚡ Open to collaborating on Open source projects.
-
-
-
-<br/>
-
-## Profile Insights
-![Profile views counter](https://komarev.com/ghpvc/?username=winsongr&&style=flat-square)
-
-<br/>
-
-## ✍️ Random Dev Quote
-![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
+### Let's Connect
+- Connect with me on [LinkedIn](https://linkedin.com/in/winsongr).
+- Feel free to reach out anytime to discuss technology or for consultation. I'm here for any tech-related conversation or assistance you may need.
