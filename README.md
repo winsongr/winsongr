@@ -1,6 +1,6 @@
 # Winson GR
 
-## Software Engineer & Fullstack Developer
+## Software Engineer
 
 Greetings! I'm Winson, a seasoned software engineer with over 4 years of experience. I specialize in Fullstack and Backend development, leveraging a wide array of technologies to deliver innovative solutions.
 
