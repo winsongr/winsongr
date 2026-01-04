@@ -1,42 +1,38 @@
-# Winson GR
+### Winson GR
+**Backend Engineer | Python/Go · Postgres · Kafka | Fintech Payment Systems & AI Infrastructure**
 
-Backend Engineer - Distributed Systems & AI Data Platforms  
-🟢 Available for High-Impact Remote / Contract Roles (US / EU)
+🟢 Available for High-Impact Remote Roles (US / EU)
 
-I design, build, and operate production-grade backend systems: distributed services, data pipelines, and AI-powered APIs designed for reliability, correctness, and real-world scale.
+I design, build, and operate production-grade backend systems where correctness, reliability, and cost control matter more than demos. My work focuses on distributed services, data pipelines, and production AI systems in finance-heavy environments.
 
-## What I work on
-- Backend architecture and system design
-- Event-driven and batch-processing systems
-- Data-intensive platforms and applied AI workflows (RAG, LLM-backed services)
-- Reliability, performance, and cost-aware infrastructure
+---
 
-## Experience highlights
-- Built systems processing **20,000+ events/day**
-- Owned platforms supporting **10,000+ active subscriptions**
-- Designed ETL pipelines for **high-velocity structured and unstructured data** with strong consistency guarantees
-- Took multiple systems from **architecture → production → operation**
+### What I Work On
+- **Backend Architecture:** Designing reliability-critical workflows and idempotent systems.
+- **Distributed Systems:** Event-driven architectures using Kafka/Redis to decouple services and handle failures safely.
+- **AI Infrastructure:** Production RAG pipelines with evaluation, observability, and cost awareness (not prototypes).
+- **Data Engineering:** ETL pipelines for high-velocity structured and unstructured data with strong consistency guarantees.
 
-## Tech stack
+---
 
-**Backend & Systems**  
-Python, FastAPI, Node.js, PostgreSQL, Redis, RabbitMQ  
+### Engineering Highlights
+- Built backend systems supporting **100,000+ active subscriptions** in revenue-critical environments.
+- Optimized data pipelines achieving **~90% query performance improvement** through storage and schema design.
+- Designed event-driven systems using **Kafka/Redis** to prevent state corruption and enable safe retries.
+- Deployed production AI workflows with failure handling and automated verification.
 
-**Cloud & Infrastructure**  
-AWS, Docker, Kubernetes  
+---
 
-**AI & Vector Compute**  
-RAG, Embeddings, Pinecone, Qdrant, LangChain  
+### Tech Stack
+- **Languages:** Python, Go, Node.js  
+- **Data & Systems:** PostgreSQL, Kafka, Redis  
+- **Infrastructure:** FastAPI, Docker, Kubernetes, AWS  
+- **AI Engineering:** RAG pipelines, vector search, evaluation tooling  
 
-## How to read this GitHub
-This profile contains **signal-only repositories**.
+---
 
-Pinned projects demonstrate how I reason about:
-- architectural trade-offs
-- scaling constraints
-- production reliability
-- operational failure modes
-
-**If you’re evaluating my work, start with the pinned repositories.**
-
-LinkedIn: https://www.linkedin.com/in/winsongr
+### How to Read This GitHub
+This profile contains signal-only repositories. Start with the pinned projects to see how I reason about:
+- Architectural trade-offs
+- Production reliability and failure modes
+- Asynchronous processing patterns
