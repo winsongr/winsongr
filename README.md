@@ -1,38 +1,44 @@
-### Winson GR
-**Backend Engineer | Python/Go · Postgres · Kafka | Fintech Payment Systems & AI Infrastructure**
+# Winson GR
+**Backend Systems Engineer | Distributed Systems & Fintech**
 
-🟢 Available for High-Impact Remote Roles (US / EU)
-
-I design, build, and operate production-grade backend systems where correctness, reliability, and cost control matter more than demos. My work focuses on distributed services, data pipelines, and production AI systems in finance-heavy environments.
+I design, build, and operate backend systems where data integrity, retries, and failure handling are non-negotiable. I specialize in building boring systems that don't break under load.
 
 ---
 
-### What I Work On
-- **Backend Architecture:** Designing reliability-critical workflows and idempotent systems.
-- **Distributed Systems:** Event-driven architectures using Kafka/Redis to decouple services and handle failures safely.
-- **AI Infrastructure:** Production RAG pipelines with evaluation, observability, and cost awareness (not prototypes).
-- **Data Engineering:** ETL pipelines for high-velocity structured and unstructured data with strong consistency guarantees.
+## Engineering Impact
+
+- Built and operated backend workflows supporting **100k+ paid subscribers** in revenue-critical environments with strict consistency guarantees.
+- Reduced infrastructure and API costs by **$48k/year** by migrating third-party workflows to in-house PostgreSQL-backed systems.
+- Improved query performance by **~90%** through schema design, denormalization, and index tuning in financial data pipelines.
+- Reduced LLM token costs by **~30%** using semantic caching and request-aware model routing.
 
 ---
 
-### Engineering Highlights
-- Built backend systems supporting **100,000+ active subscriptions** in revenue-critical environments.
-- Optimized data pipelines achieving **~90% query performance improvement** through storage and schema design.
-- Designed event-driven systems using **Kafka/Redis** to prevent state corruption and enable safe retries.
-- Deployed production AI workflows with failure handling and automated verification.
+## Selected Systems
+
+### Transaction Engine
+FSM-based transactional workflow engine designed to prevent state corruption in payment and finance workflows.
+
+- Enforces exactly-once state transitions using idempotency keys
+- Uses the transactional outbox pattern for safe event publishing
+- Built to survive retries, crashes, and duplicate events
+
+→ [Code](https://github.com/winsongr/transaction-engine) · Tests · Design notes
+
+### Async RAG Ingestion Engine
+Deterministic async ingestion pipeline for large-scale document processing.
+
+- Idempotent vector indexing with failure-safe retries
+- DLQ-backed recovery for rate limits and partial failures
+- Designed for predictable cost and zero data loss
+
+→ [Code](https://github.com/winsongr/async-rag-ingestion-engine) · Architecture · Failure modes
 
 ---
 
-### Tech Stack
-- **Languages:** Python, Go, Node.js  
-- **Data & Systems:** PostgreSQL, Kafka, Redis  
-- **Infrastructure:** FastAPI, Docker, Kubernetes, AWS  
-- **AI Engineering:** RAG pipelines, vector search, evaluation tooling  
+## Focus
+**Python · Go · PostgreSQL · Kafka · Redis**  
+Distributed systems · Event-driven architectures · Reliability patterns
 
----
-
-### How to Read This GitHub
-This profile contains signal-only repositories. Start with the pinned projects to see how I reason about:
-- Architectural trade-offs
-- Production reliability and failure modes
-- Asynchronous processing patterns
+**LinkedIn:** [linkedin.com/in/winsongr](https://linkedin.com/in/winsongr)  
+**LeetCode:** [leetcode.com/u/winsongr](https://leetcode.com/u/winsongr)
