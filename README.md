@@ -8,8 +8,8 @@ I design, build, and operate backend systems where data integrity, retries, and 
 ## Engineering Impact
 
 - Built and operated backend workflows supporting **100k+ paid subscribers** in revenue-critical environments with strict consistency guarantees.
-- Reduced infrastructure and API costs by **$48k/year** by migrating third-party workflows to in-house PostgreSQL-backed systems.
-- Improved query performance by **~90%** through schema design, denormalization, and index tuning in financial data pipelines.
+- Reduced infrastructure and API costs by $48k/year by migrating third-party workflows to in-house PostgreSQL systems over 6 months.
+- Improved query performance by ~90% in production financial data pipeline serving 3M monthly users through schema redesign and index optimization.
 - Reduced LLM token costs by **~30%** using semantic caching and request-aware model routing.
 
 ---
@@ -36,9 +36,11 @@ Deterministic async ingestion pipeline for large-scale document processing.
 
 ---
 
-## Focus
-**Python · Go · PostgreSQL · Kafka · Redis**  
-Distributed systems · Event-driven architectures · Reliability patterns
+## Technical Focus
+
+**Core stack:** Python, PostgreSQL, Kafka (production-validated in finance-critical systems)  
+**System design:** Event-driven architectures, idempotency patterns, failure recovery  
+**Currently exploring:** Go for high-throughput API services
 
 **LinkedIn:** [linkedin.com/in/winsongr](https://linkedin.com/in/winsongr)  
 **LeetCode:** [leetcode.com/u/winsongr](https://leetcode.com/u/winsongr)
