@@ -23,7 +23,7 @@ FSM-based transactional workflow engine designed to prevent state corruption in 
 - Uses the transactional outbox pattern for safe event publishing
 - Built to survive retries, crashes, and duplicate events
 
-→ [Code](https://github.com/winsongr/transaction-engine) · Tests · Design notes
+→  [View repository](https://github.com/winsongr/transaction-engine) 
 
 ### Async RAG Ingestion Engine
 Deterministic async ingestion pipeline for large-scale document processing.
@@ -32,7 +32,7 @@ Deterministic async ingestion pipeline for large-scale document processing.
 - DLQ-backed recovery for rate limits and partial failures
 - Designed for predictable cost and zero data loss
 
-→ [Code](https://github.com/winsongr/async-rag-ingestion-engine) · Architecture · Failure modes
+→  [View repository](https://github.com/winsongr/async-rag-ingestion-engine) 
 
 ---
 
