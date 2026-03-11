@@ -1,46 +1,69 @@
 # Winson GR
-**Backend Systems Engineer | Distributed Systems & Fintech**
+**Senior Backend Engineer | Python · Go · Distributed Systems · Fintech & AI Infrastructure**
 
-I design, build, and operate backend systems where data integrity, retries, and failure handling are non-negotiable. I specialize in building boring systems that don't break under load.
+I build production backend systems where **data integrity, failure recovery, and operational reliability are critical**.
+
+My work focuses on distributed architectures, financial data pipelines, and AI-powered backend systems designed to remain stable under concurrency, retries, and partial failures.
+
+I specialize in building **boring systems that don’t break under load.**
 
 ---
 
 ## Engineering Impact
 
-- Built and operated backend workflows supporting **100k+ paid subscribers** in revenue-critical environments with strict consistency guarantees.
-- Reduced infrastructure and API costs by $48k/year by migrating third-party workflows to in-house PostgreSQL systems over 6 months.
-- Improved query performance by ~90% in production financial data pipeline serving 3M monthly users through schema redesign and index optimization.
-- Reduced LLM token costs by **~30%** using semantic caching and request-aware model routing.
+• Backend systems supporting **100K+ paid users** in revenue-critical environments with strict consistency guarantees  
+• Reduced infrastructure and API costs by **$48K/year** by replacing third-party services with in-house PostgreSQL workflows  
+• Improved query performance by **~90%** in financial data pipelines serving **3M monthly users** through schema redesign and indexing strategies  
+• Reduced LLM inference costs by **~30%** using semantic caching and request-aware model routing  
 
 ---
 
 ## Selected Systems
 
 ### Transaction Engine
-FSM-based transactional workflow engine designed to prevent state corruption in payment and finance workflows.
 
-- Enforces exactly-once state transitions using idempotency keys
-- Uses the transactional outbox pattern for safe event publishing
-- Built to survive retries, crashes, and duplicate events
+Distributed workflow engine designed to prevent invalid state transitions in financial systems.
 
-→  [View repository](https://github.com/winsongr/transaction-engine) 
+Key design ideas:
+
+• Exactly-once state transitions using **idempotency keys**  
+• **Transactional outbox pattern** to safely publish events from PostgreSQL  
+• **Optimistic locking** to prevent concurrent state corruption  
+
+Built to survive **retries, crashes, and duplicate events** in distributed financial workflows.
+
+→ [View repository](https://github.com/winsongr/transaction-engine)
+
+---
 
 ### Async RAG Ingestion Engine
-Deterministic async ingestion pipeline for large-scale document processing.
 
-- Idempotent vector indexing with failure-safe retries
-- DLQ-backed recovery for rate limits and partial failures
-- Designed for predictable cost and zero data loss
+Large-scale ingestion pipeline for document processing and vector indexing.
 
-→  [View repository](https://github.com/winsongr/async-rag-ingestion-engine) 
+Key design ideas:
+
+• **Idempotent document ingestion** preventing duplicate embeddings  
+• **Dead Letter Queue (DLQ)** recovery for rate limits and partial failures  
+• Deterministic indexing enabling safe retries without data corruption  
+
+Designed for **predictable cost, high throughput, and zero data loss** in production AI systems.
+
+→ [View repository](https://github.com/winsongr/async-rag-ingestion-engine)
 
 ---
 
 ## Technical Focus
 
-**Core stack:** Python, PostgreSQL, Kafka (production-validated in finance-critical systems)  
-**System design:** Event-driven architectures, idempotency patterns, failure recovery  
-**Currently exploring:** Go for high-throughput API services
+**Core stack**  
+Python · Go · PostgreSQL · Kafka · Redis · FastAPI  
 
-**LinkedIn:** [linkedin.com/in/winsongr](https://linkedin.com/in/winsongr)  
-**LeetCode:** [leetcode.com/u/winsongr](https://leetcode.com/u/winsongr)
+**Architecture patterns**  
+Event-driven systems · Idempotency · Transactional Outbox · Async processing · Failure recovery  
+
+**Currently exploring**  
+Go for high-throughput backend services and distributed API systems
+
+---
+
+**LinkedIn:** https://linkedin.com/in/winsongr  
+**LeetCode:** https://leetcode.com/u/winsongr
